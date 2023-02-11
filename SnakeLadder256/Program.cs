@@ -15,6 +15,9 @@ namespace SnakeLadder256
 
                DiceRoll getnumber = new DiceRoll();
             getnumber.RollTheDice();
+
+            CheckOption No_player = new CheckOption();
+            No_player.Checkforoption();
             }
         }
     }
