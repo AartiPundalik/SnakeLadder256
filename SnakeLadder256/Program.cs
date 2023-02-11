@@ -18,6 +18,9 @@ namespace SnakeLadder256
 
             CheckOption No_player = new CheckOption();
             No_player.Checkforoption();
+
+            WinningPosition positionmoves = new WinningPosition();
+            positionmoves.PlayerPosition();
             }
         }
     }
