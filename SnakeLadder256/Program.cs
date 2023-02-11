@@ -21,6 +21,9 @@ namespace SnakeLadder256
 
             WinningPosition positionmoves = new WinningPosition();
             positionmoves.PlayerPosition();
+
+            ExactWinning OBJ = new ExactWinning();
+            OBJ.Position100();
             }
         }
     }
