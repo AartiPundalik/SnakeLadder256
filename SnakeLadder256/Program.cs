@@ -12,6 +12,9 @@ namespace SnakeLadder256
         {
                 SinglePlayer position = new SinglePlayer();
                 position.StartPosition();
+
+               DiceRoll getnumber = new DiceRoll();
+            getnumber.RollTheDice();
             }
         }
     }
