@@ -44,11 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CheckOption.cs" />
+    <Compile Include="ExactWinning.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DiceRoll.cs" />
     <Compile Include="SinglePlayer.cs" />
     <Compile Include="WinningPosition.cs" />
+    <Compile Include="WinTheGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
